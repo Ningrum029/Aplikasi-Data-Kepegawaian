@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/birumuda"
+    android:padding="16dp"
+    tools:context=".DaftarAdminActivity">
+
+    <ImageView
+        android:id="@+id/Rimg_1"
+        android:layout_width="193dp"
+        android:layout_height="178dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/sqr" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Rimg_1"
+        android:layout_centerHorizontal="true"
+        android:text="FROM PENDAFTARAN UJIAN"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@color/black"
+        android:id="@+id/Rtxt_1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Rtxt_1"
+        android:layout_centerHorizontal="true"
+        android:text="Univeristas Ahmad Dahlan"
+        android:textSize="12sp"
+        android:fontFamily="@font/poppinsregular"
+        android:textColor="@color/black"
+        android:id="@+id/Rtxt_2"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/Rtxt_2"
+        android:padding="30dp"
+        android:id="@+id/ly1">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/button_shape"
+            android:hint="Masukkan nama lengkap"
+            android:paddingLeft="15dp"
+            android:backgroundTint="@color/grey"
+            android:fontFamily="@font/poppinsregular"
+            android:id="@+id/nama"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_shape"
+            android:hint="Masukkan NIM"
+            android:paddingLeft="15dp"
+            android:backgroundTint="@color/grey"
+            android:fontFamily="@font/poppinsregular"
+            android:id="@+id/nim"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_shape"
+            android:hint="Masukkan Kelas "
+            android:paddingLeft="15dp"
+            android:backgroundTint="@color/grey"
+            android:fontFamily="@font/poppinsregular"
+            android:id="@+id/kelas"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_shape"
+            android:hint="Masukkan Prodi"
+            android:paddingLeft="15dp"
+            android:backgroundTint="@color/grey"
+            android:fontFamily="@font/poppinsregular"
+            android:id="@+id/prodi"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CETAK"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_below="@id/ly1"
+        android:layout_centerHorizontal="true"
+        android:width="150dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:id="@+id/btnsubmit"/>
+
+
+
+</RelativeLayout>
