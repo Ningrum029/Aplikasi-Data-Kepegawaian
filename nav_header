@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="310dp"
+    android:gravity="bottom"
+    android:padding="20dp"
+    android:background="@drawable/header3"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center_horizontal"
+        android:text="PT JOURNEY"
+        android:textColor="@color/birutengahmalam"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/logopt"
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/tvLogin"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="35dp"
+        android:src="@drawable/logo_pt"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_below="@+id/logopt"
+        android:layout_marginTop="20dp"
+        android:text="Email: ptjourney@gmail.com"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+</LinearLayout>
