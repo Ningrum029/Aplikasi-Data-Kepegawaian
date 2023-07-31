@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/steelbiru"
+    tools:context=".BaranglistActivity">
+
+    <TextView
+        android:id="@+id/judulTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daftar Karyawan"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="30dp">
+
+        <ImageView
+            android:id="@+id/fotoImageView1"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:src="@drawable/profil"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/namaTextView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Karyawan 1"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppinsbold"
+                android:layout_marginStart="8dp" />
+
+            <TextView
+                android:id="@+id/statusTextView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Status Karyawan 1"
+                android:textSize="14sp"
+                android:fontFamily="@font/poppinsbold"
+                android:layout_marginStart="8dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#D3D3D3"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="30dp">
+
+        <ImageView
+            android:id="@+id/fotoImageView2"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:src="@drawable/profil"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/namaTextView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Karyawan 2"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppinsbold"
+                android:layout_marginStart="8dp" />
+
+            <TextView
+                android:id="@+id/statusTextView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Status Karyawan 2"
+                android:textSize="14sp"
+                android:fontFamily="@font/poppinsbold"
+                android:layout_marginStart="8dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#D3D3D3"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="30dp">
+
+        <ImageView
+            android:id="@+id/fotoImageView5"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:src="@drawable/profil"
+            android:scaleType="centerCrop"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/namaTextView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Karyawan 3"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppinsbold"
+                android:layout_marginStart="8dp" />
+
+            <TextView
+                android:id="@+id/statusTextView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Status Karyawan 3"
+                android:textSize="14sp"
+                android:fontFamily="@font/poppinsbold"
+                android:layout_marginStart="8dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#D3D3D3"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="30dp">
+
+        <ImageView
+            android:id="@+id/fotoImageView4"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:src="@drawable/profil"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/namaTextView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Karyawan 4"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppinsbold"
+                android:layout_marginStart="8dp" />
+
+            <TextView
+                android:id="@+id/statusTextView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Status Karyawan 4"
+                android:textSize="14sp"
+                android:fontFamily="@font/poppinsbold"
+                android:layout_marginStart="8dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#D3D3D3"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/fotoImageView3"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:src="@drawable/profil"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/namaTextView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Karyawan 5"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppinsbold"
+                android:layout_marginStart="8dp" />
+
+            <TextView
+                android:id="@+id/statusTextView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Status Karyawan 5"
+                android:textSize="14sp"
+                android:fontFamily="@font/poppinsbold"
+                android:layout_marginStart="8dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
